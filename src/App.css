@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Lexend+Deca&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+    overflow: hidden;
+  height: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
+  /* border: 1px solid red; */
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: 0 auto;
+  gap: 24px;
+  /* padding: 14px 0 14px 0; */
+}
+ul{
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+.brandlogo{
+  margin: 15px 0 14px 85px;
+}
+.btnlog{
+  margin: 21px 97px 0 0;
+  background-color: red;
+  padding: 6px 16px;
   color: white;
+  border: none;
+}
+.maincontainer{
+  /* border: 1px solid red; */
+  display: flex;
+   max-width: 1200px;
+    margin: 0 auto;
+  padding: 25px;
+}
+.textdiv{
+  justify-content: center;
+}
+h1{
+  font-weight: 800;
+  font-size: 90px;
+  line-height: 100%;
+}
+.para{
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100% ;
+  margin: 36px 0 36px 0;
+}
+.textbtn{
+  display: flex;
+  gap: 56px;
+  margin-bottom: 36px;
+}
+.btn1{
+    background-color: red;
+  padding: 6px 16px;
+  color: white;
+  border: none;
+  gap: 10px;
+}
+.btn2{
+    background-color:transparent;
+  padding: 6px 16px;
+  color: grey;
+  border: 1px solid black;
+  gap: 10px;
+}
+.avtext{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: grey;
+  margin-bottom: 10px;
+}
+.brandimg{
+  display: flex;
+  gap: 16px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
