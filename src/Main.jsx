@@ -17,7 +17,7 @@ function Main() {
         </div>
       </div>
       <div>
-        <img src="/Images/shoe_image.png" alt="" />
+        <img src="/Images/shoe_image.png" alt="Shoes" />
       </div>
     </div>
   );
