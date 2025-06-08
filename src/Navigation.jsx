@@ -1,8 +1,9 @@
+import img from "./images/brand_logo.png";
 function Navigation() {
   return (
     <nav className="container">
       <div className="brandlogo">
-        <img src="/Images/brand_logo.png" alt="Logo " />
+        <img src={img} alt="Logo " />
       </div>
       <ul>
         <li>Menu</li>

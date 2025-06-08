@@ -1,3 +1,6 @@
+import { FaAmazon } from "react-icons/fa";
+import { SiFlipkart } from "react-icons/si";
+import img from "./images/shoe_image.png";
 function Main() {
   return (
     <div className="maincontainer">
@@ -11,13 +14,15 @@ function Main() {
         </div>
         <p className="avtext">Also Available On</p>
         <div className="brandimg">
-            <img src="/Images/amazon.png" alt="amazon" />
-            <img src="/Images/flipkart.png" alt="flipkart" />
+            {/* <img src="./images/amazon.png" alt="amazon" /> */}
+            <FaAmazon/>
+            {/* <img src="/Images/flipkart.png" alt="flipkart" /> */}
+            <SiFlipkart />
         </div>
         </div>
       </div>
       <div>
-        <img src="/Images/shoe_image.png" alt="Shoes" />
+        <img src={img} alt="Shoes" />
       </div>
     </div>
   );
